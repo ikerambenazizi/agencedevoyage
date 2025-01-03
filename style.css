@@ -1,13 +1,40 @@
-nav ul li{
-    margin-top: -70px;
-    display: inline-block;
-    padding: 40px 50px;
 
-}nav{
-    margin-left: 250px;
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav ul li{
+    display: inline-block;
 
 }
 header {
+    align-items: center; 
     background-color: antiquewhite;
+    height: 80px;
+}
+header ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 1rem;
+    margin-left: 40px;
+    justify-content: space-between;
 
+}
+nav{
+    margin-left: 350px;
+    margin-top: -40px;
+}
+button{
+    background-color: rgb(253, 137, 49);
+    margin-bottom: 40px;
+    margin-left: 30px;
+    width: 90px;
+    height: 40px;
+    border-radius: 15px;
+    
+
+}
+.container{
+    width: 90%;
+    padding: 10px;
 }
