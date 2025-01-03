@@ -57,3 +57,10 @@ span{
 .second{
     display: flex;
 }
+.ligne{
+    margin-left: 100px;
+}
+.second{
+    margin-left: 100px;
+    display: flex;
+}
