@@ -12,6 +12,9 @@ header {
     background-color: antiquewhite;
     height: 80px;
 }
+section{
+    display: flex;
+}
 header ul li a{
     text-decoration: none;
     color:black;
@@ -31,10 +34,26 @@ button{
     width: 90px;
     height: 40px;
     border-radius: 15px;
-    
-
 }
 .container{
     width: 90%;
     padding: 10px;
+}
+.titre{
+    margin-top: 70px;
+    padding: 80px;
+}
+.titre h1{
+    font-size: xx-large;
+}
+span{
+    color: coral;
+}
+#test{
+    margin-left: 200px;
+    width: 400px;
+    height: 400px;
+}
+.second{
+    display: flex;
 }
