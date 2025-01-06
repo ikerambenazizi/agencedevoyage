@@ -23,11 +23,21 @@ header ul li a{
     justify-content: space-between;
 
 }
-nav{
+nav {
     margin-left: 350px;
-    margin-top: -40px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
 }
-button{
+.premier{
+    background-color: rgb(253, 137, 49);
+    width: 90px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: -10px;   
+}
+
+.button{
     background-color: rgb(253, 137, 49);
     margin-bottom: 40px;
     margin-left: 30px;
@@ -56,6 +66,7 @@ span{
 }
 .second{
     display: flex;
+    gap: 80px;
 }
 .ligne{
     margin-left: 100px;
@@ -63,4 +74,9 @@ span{
 .second{
     margin-left: 100px;
     display: flex;
+}
+.pied{
+    margin-top: 50px ;
+    background-color: antiquewhite;
+    padding-left: 60px;
 }
